@@ -16,26 +16,26 @@
 Docker Commands:
 
 docker
-infp : 
-ps : list running containers
-ps -a : list all containers
-run : run a container
-stop <cid|name> : stop a container
-start <cid|name> : start a container
-restart <cid|name> : restart a container
-pause <cid|name> : pause a container
-unpause <cid|name> : unpause a container
-exec : issue command inside running container
-inspect <cid|name> : view container details
-rm <cid|name> : remove a container
-images : list all images
-build : build an image
-tag : name an image
-pull : pull image from hub to local
-rmi <> : push image to hub from local
-inspect <cid|name> : info about the container
+- info : 
+- ps : list running containers
+- ps -a : list all containers
+- run : run a container
+- stop <cid|name> : stop a container
+- start <cid|name> : start a container
+- restart <cid|name> : restart a container
+- pause <cid|name> : pause a container
+- unpause <cid|name> : unpause a container
+- exec : issue command inside running container
+- inspect <cid|name> : view container details
+- rm <cid|name> : remove a container
+- images : list all images
+- build : build an image
+- tag : name an image
+- pull : pull image from hub to local
+- rmi <> : push image to hub from local
+- inspect <cid|name> : info about the container
 
-docker run
+- docker run
 
 docker run -dit --name my-apache-app -p 9000:80 -v /home/ec2-user/environment/webapp:/usr/local/apache2/htdocs/ httpd:2.4
 
