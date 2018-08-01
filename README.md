@@ -6,4 +6,5 @@
 - Create Route Table and associate to both Subnets
 - Create ACL and associate to both Subnets
 - Create a Load Balancer Security Group (allow 80 incoming, 80,443 outgoing)
-- Create a Instances Security Group (allow above Load Balancer SG and 22 incoming)
+- Create a Instances Security Group (allow above LBSG and 22 incoming)
+- On EC2, create a Load Balancer, add both Subnets, assign above LBSG
