@@ -15,6 +15,7 @@
 
 Docker Commands:
 
+```
 docker
 - info : 
 - ps : list running containers
@@ -38,4 +39,4 @@ docker
 - docker run
 
 docker run -dit --name my-apache-app -p 9000:80 -v /home/ec2-user/environment/webapp:/usr/local/apache2/htdocs/ httpd:2.4
-
+```
