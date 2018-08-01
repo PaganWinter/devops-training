@@ -16,6 +16,7 @@
 Docker Commands:
 
 docker
+infp : 
 ps : list running containers
 ps -a : list all containers
 run : run a container
@@ -32,4 +33,9 @@ build : build an image
 tag : name an image
 pull : pull image from hub to local
 rmi <> : push image to hub from local
-inspect <> :
+inspect <cid|name> : info about the container
+
+docker run
+
+docker run -dit --name my-apache-app -p 9000:80 -v /home/ec2-user/environment/webapp:/usr/local/apache2/htdocs/ httpd:2.4
+
