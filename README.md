@@ -8,3 +8,7 @@
 - Create a Load Balancer Security Group (allow 80 incoming, 80,443 outgoing)
 - Create a Instances Security Group (allow above LBSG and 22 incoming)
 - On EC2, create a Load Balancer, add both Subnets, assign above LBSG
+
+- Create AMI from existing VM
+- Create Launch Configuration
+- Create Auto Scaling Group with above LC
