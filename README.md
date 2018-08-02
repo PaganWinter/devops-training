@@ -1,5 +1,7 @@
 # devops-training
 
+https://drive.google.com/drive/folders/1zGjwkaR0nr9iqJcot7XBOyspzCf6VwP3
+
 - Create VPC
 - Create Internet Gateway and associate to VPC
 - Create Subnets (in different Availablbilily Zones) and associate to VPC
